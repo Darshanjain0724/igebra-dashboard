@@ -2,8 +2,8 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
 
-> **Live demo:** REPLACE_WITH_YOUR_VERCEL_URL  
-> **Repository:** REPLACE_WITH_YOUR_GITHUB_URL
+> **Live demo:** [https://igebra-dashboard-psi.vercel.app/]  
+> **Repository:** [https://github.com/Darshanjain0724/igebra-dashboard]
 
 ---
 
@@ -89,9 +89,8 @@ Open http://localhost:3000
 ---
 
 ## 📸 Screenshots / GIFs
-Add 1–3 screenshots under `public/screenshots/` and reference them in this README:
 ```md
-![Homepage screenshot](public/screenshots/home.png)
+
 ```
 
 ---
@@ -101,5 +100,3 @@ MIT License — feel free to reuse with attribution.
 Author: Darshan Jain — contact via GitHub profile.
 
 ---
-
-*Replace placeholders above with your actual GitHub and Vercel URLs before final submission.*
