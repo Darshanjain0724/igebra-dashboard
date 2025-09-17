@@ -1,9 +1,12 @@
 # Igebra.ai — Cognitive Skills & Student Performance Dashboard
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_poj1cjpoj1cjpoj1" src="https://github.com/user-attachments/assets/840a3801-8a2c-4dd2-bbba-5c057e16444e" />
+
+
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
 
-> **Live demo:** REPLACE_WITH_YOUR_VERCEL_URL  
-> **Repository:** REPLACE_WITH_YOUR_GITHUB_URL
+> **Live demo:** [https://igebra-dashboard-psi.vercel.app/]  
+> **Repository:** [https://github.com/Darshanjain0724/igebra-dashboard]
 
 ---
 
@@ -74,6 +77,9 @@ Open http://localhost:3000
 
 ---
 
+
+<img width="1022" height="475" alt="Screenshot 2025-09-17 235125" src="https://github.com/user-attachments/assets/e7d93a36-8c96-4f05-be88-7c7927f9ba8a" />
+
 ## 📊 Notes on the data & ML
 - The synthetic dataset columns: `student_id, name, class, comprehension, attention, focus, retention, engagement_time, assessment_score`.
 - ML notebook (separate deliverable): trains a simple regression model to predict `assessment_score`, evaluates RMSE / R², and produces KMeans clusters for learning personas.
@@ -89,10 +95,13 @@ Open http://localhost:3000
 ---
 
 ## 📸 Screenshots / GIFs
-Add 1–3 screenshots under `public/screenshots/` and reference them in this README:
 ```md
-![Homepage screenshot](public/screenshots/home.png)
+
 ```
+
+<img width="1903" height="646" alt="Screenshot 2025-09-18 000541" src="https://github.com/user-attachments/assets/12c012a6-0146-48fd-ba49-f7d010f79bf0" />
+<img width="1900" height="571" alt="Screenshot 2025-09-18 000611" src="https://github.com/user-attachments/assets/4cae1613-129c-41e6-9817-1e4acefc05fb" />
+<img width="1900" height="666" alt="Screenshot 2025-09-18 000624" src="https://github.com/user-attachments/assets/4056b908-57de-462b-8429-a9d4a33a46a4" />
 
 ---
 
@@ -101,5 +110,3 @@ MIT License — feel free to reuse with attribution.
 Author: Darshan Jain — contact via GitHub profile.
 
 ---
-
-*Replace placeholders above with your actual GitHub and Vercel URLs before final submission.*
