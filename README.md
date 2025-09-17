@@ -1,7 +1,6 @@
 📊 Igebra.ai – Cognitive Skills & Student Performance Dashboard
 
-This project is built as part of the Igebra.ai Assignment.
-It provides an interactive Next.js dashboard for analyzing student cognitive skills and performance.
+This project provides an interactive Next.js dashboard for analyzing student cognitive skills and performance.
 
 🚀 Features
 
