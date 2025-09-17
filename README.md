@@ -1,95 +1,115 @@
-📊 Igebra.ai – Cognitive Skills & Student Performance Dashboard
+📓 Jupyter Notebook – Cognitive Skills & Student Performance
 
-This project provides an interactive Next.js dashboard for analyzing student cognitive skills and performance.
+
+
+
+
+
+📊 Dataset
+
+Synthetic dataset with fields:
+student_id, name, class, comprehension, attention, focus, retention, assessment_score, engagement_time
+
+🔎 Analysis
+
+Summary statistics & distributions
+
+Correlation heatmap → skills vs. performance
+
+Key Insight: Attention & Focus are strongest predictors
+
+🤖 Machine Learning Model
+
+Model: Linear Regression
+
+Target: assessment_score
+
+Loss Function: MSE
+
+Result: Predicts scores with good accuracy
+
+👥 Clustering – Learning Personas
+
+Algorithm: KMeans (k=3)
+
+Personas:
+
+🧠 High Performers
+
+⚡ Focused Learners
+
+🎯 At-Risk Students
+
+📈 Visualizations
+
+Heatmap (correlations)
+
+Scatter (attention vs. performance)
+
+Cluster plot (personas)
+
+🚀 Next Steps
+
+Integrate with dashboard
+
+Add real-time data pipeline
+
+🌐 Next.js Dashboard – Igebra.ai
+
+
+
+![Dashboard Banner](public\Gemini_Generated_Image_poj1cjpoj1cjpoj1.png)
+
+
+
+
 
 🚀 Features
 
-Overview Stats → Avg scores, skills summary
+Overview Stats
 
-Charts
+📊 Bar chart → Skill vs. Score
 
-📊 Bar chart → Cognitive skill vs. assessment score
+🔵 Scatter plot → Attention vs. Performance
 
-🔵 Scatter plot → Attention vs. performance
+🕸️ Radar chart → Student profile
 
-🕸️ Radar chart → Student skill profile
+Student Table → Searchable & sortable
 
-Student Table → Searchable + sortable
+Insights Section → Findings + Personas
 
-Insights Section → Key findings about correlations & learning personas
-
-Synthetic Dataset → Generated with fields:
-student_id, name, class, comprehension, attention, focus, retention, assessment_score, engagement_time
-
-🛠️ Tech Stack
-
-Next.js 14 – React framework
-
-Tailwind CSS – Styling
-
-Recharts – Interactive data visualization
-
-API Routes – Serve synthetic student dataset
-
-📂 Project Structure
-.
-├── pages/
-│   ├── index.js         # Dashboard UI
-│   ├── api/data.js      # Synthetic student dataset
-├── components/
-│   ├── BarChart.js
-│   ├── ScatterChart.js
-│   ├── RadarChart.js
-│   └── StudentTable.js
-├── styles/
-│   └── globals.css      # Tailwind CSS
-├── public/
-│   └── ... (static files if any)
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── README.md
-└── .gitignore
+📂 Structure
+pages/
+ ├── index.js
+ ├── api/data.js
+components/
+ ├── BarChart.js
+ ├── ScatterChart.js
+ ├── RadarChart.js
+ ├── StudentTable.js
+styles/
+ └── globals.css
 
 ⚡ Local Setup
-
-Clone the repo & install dependencies:
-
 git clone https://github.com/Darshanjain0724/igebra-dashboard.git
 cd igebra-dashboard
 npm install
 npm run dev
 
 
-Now open → http://localhost:3000
- 🎉
+Visit → http://localhost:3000
 
 🌍 Deployment
 
-This project is deployed on Vercel.
-
-Live link → https://igebra-dashboard.vercel.app
+Deployed on Vercel 🚀
+🔗 Live: https://igebra-dashboard.vercel.app
 
 🔑 Key Findings
 
-Attention & Focus are strongly correlated with higher assessment scores.
+Attention & Focus → major impact on scores
 
-Engagement Time influences retention but not always direct performance.
+Engagement Time → boosts retention
 
-Students can be clustered into learning personas:
-
-🧠 High Performers → strong across all skills
-
-⚡ Focused Learners → high attention but medium scores
-
-🎯 At-Risk → low attention + low retention
-
-📌 Deliverables
-
-✔️ Jupyter Notebook (ML + Analysis)
-✔️ Next.js Dashboard (this repo)
-✔️ GitHub Repo Link (submission)
-✔️ Vercel Deployment Link (submission)
-✔️ README (this file ✅)
+Learning Personas: High Performers, Focused Learners, At-Risk Students
 
 ✨ Built with ❤️ for the Igebra.ai Assignment
