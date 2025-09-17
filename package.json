@@ -1,0 +1,21 @@
+{
+  "name": "igebra-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "^2.5.0",
+    "papaparse": "^5.4.1",
+    "swr": "^2.0.0",
+    "react-table": "^7.8.0",
+    "axios": "^1.4.0"
+  }
+}
