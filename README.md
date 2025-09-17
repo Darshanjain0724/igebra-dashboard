@@ -1,116 +1,115 @@
-Jupyter Notebook – Cognitive Skills & Student Performance
+# Igebra.ai — Cognitive Skills & Student Performance Dashboard
+
+<img width="1024" height="1024" alt="Gemini_Generated_Image_poj1cjpoj1cjpoj1" src="https://github.com/user-attachments/assets/840a3801-8a2c-4dd2-bbba-5c057e16444e" />
 
 
-<img width="1022" height="475" alt="Screenshot 2025-09-17 235125" src="https://github.com/user-attachments/assets/d8bbf1bb-cd28-42b4-8ce8-e127afba7442" />
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
+
+![CI](https://github.com/Darshanjain0724/igebra-dashboard/actions/workflows/ci.yml/badge.svg)
 
 
+> **Live demo:** [https://igebra-dashboard-psi.vercel.app/]  
+> **Repository:** [https://github.com/Darshanjain0724/igebra-dashboard]
 
+---
 
-📊 Dataset
+## 📌 Project overview
+A lightweight Next.js dashboard that visualizes synthetic student cognitive skills and predicts assessment scores using a simple ML pipeline. The dashboard includes overview stats, bar/scatter/radar charts, a searchable/sortable student table, and an insights section (correlations + learning personas).
 
-Synthetic dataset with fields:
-student_id, name, class, comprehension, attention, focus, retention, assessment_score, engagement_time
+This repo contains the dashboard (frontend + API route) only. The ML notebook & model are provided alongside as a separate deliverable (see `notebook/` or linked repo).
 
-🔎 Analysis
+---
 
-Summary statistics & distributions
+## ⚙️ Features
+- Overview statistics (avg scores and skill means)
+- Bar chart: avg assessment by comprehension bins
+- Scatter plot: attention vs assessment
+- Radar chart: per-student skill profile
+- Student table: searchable, sortable
+- API route: `/api/data` serves synthetic dataset + aggregates (no external DB required)
 
-Correlation heatmap → skills vs. performance
+---
 
-Key Insight: Attention & Focus are strongest predictors
+## 📁 Project structure
+```
+.
+├── pages/
+│   ├── index.js         # Dashboard UI
+│   ├── api/data.js      # Synthetic student dataset & aggregates
+├── components/
+│   ├── OverviewStats.jsx
+│   ├── BarChart.jsx
+│   ├── ScatterChart.jsx
+│   ├── RadarChart.jsx
+│   └── StudentsTable.jsx
+├── public/
+│   └── students_synthetic.csv
+├── styles/
+│   └── globals.css
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+└── .gitignore
+```
 
-🤖 Machine Learning Model
+---
 
-Model: Linear Regression
+## 🚀 Quickstart (local)
+Make sure Node.js (>=16) and npm are installed.
 
-Target: assessment_score
-
-Loss Function: MSE
-
-Result: Predicts scores with good accuracy
-
-👥 Clustering – Learning Personas
-
-Algorithm: KMeans (k=3)
-
-Personas:
-
-🧠 High Performers
-
-⚡ Focused Learners
-
-🎯 At-Risk Students
-
-📈 Visualizations
-
-Heatmap (correlations)
-
-Scatter (attention vs. performance)
-
-Cluster plot (personas)
-
-🚀 Next Steps
-
-Integrate with dashboard
-
-Add real-time data pipeline
-
-🌐 Next.js Dashboard – Igebra.ai
-
-
-
-![Dashboard Banner](public\Gemini_Generated_Image_poj1cjpoj1cjpoj1.png)
-
-
-
-
-
-🚀 Features
-
-Overview Stats
-
-📊 Bar chart → Skill vs. Score
-
-🔵 Scatter plot → Attention vs. Performance
-
-🕸️ Radar chart → Student profile
-
-Student Table → Searchable & sortable
-
-Insights Section → Findings + Personas
-
-📂 Structure
-pages/
- ├── index.js
- ├── api/data.js
-components/
- ├── BarChart.js
- ├── ScatterChart.js
- ├── RadarChart.js
- ├── StudentTable.js
-styles/
- └── globals.css
-
-⚡ Local Setup
-git clone https://github.com/Darshanjain0724/igebra-dashboard.git
+```bash
+# clone & run
+git clone REPLACE_WITH_YOUR_GITHUB_URL
 cd igebra-dashboard
 npm install
 npm run dev
+```
+
+Open http://localhost:3000
+
+---
+
+## 🔧 Deploy to Vercel (steps)
+1. Sign in to https://vercel.com using your GitHub account.
+2. Click **New Project**, choose the repository `igebra-dashboard` and click **Import**.
+3. Vercel auto-detects Next.js — just click **Deploy**.
+4. After build, copy the **Production** URL and replace the `REPLACE_WITH_YOUR_VERCEL_URL` at the top of this README.
+
+> If you need environment variables, add them on Vercel: Project → Settings → Environment Variables. See `.env.example` for examples.
+
+---
 
 
-Visit → http://localhost:3000
+<img width="1022" height="475" alt="Screenshot 2025-09-17 235125" src="https://github.com/user-attachments/assets/e7d93a36-8c96-4f05-be88-7c7927f9ba8a" />
 
-🌍 Deployment
+## 📊 Notes on the data & ML
+- The synthetic dataset columns: `student_id, name, class, comprehension, attention, focus, retention, engagement_time, assessment_score`.
+- ML notebook (separate deliverable): trains a simple regression model to predict `assessment_score`, evaluates RMSE / R², and produces KMeans clusters for learning personas.
 
-Deployed on Vercel 🚀
-🔗 Live: https://igebra-dashboard.vercel.app
+---
 
-🔑 Key Findings
+## ✅ Checklist for submission
+- [ ] Jupyter Notebook (analysis + ML)
+- [ ] Next.js dashboard (this repo)
+- [ ] GitHub repo link
+- [ ] Vercel deployment link (public)
 
-Attention & Focus → major impact on scores
+---
 
-Engagement Time → boosts retention
+## 📸 Screenshots / GIFs
+```md
 
-Learning Personas: High Performers, Focused Learners, At-Risk Students
+```
 
-✨ Built with ❤️ for the Igebra.ai Assignment
+<img width="1903" height="646" alt="Screenshot 2025-09-18 000541" src="https://github.com/user-attachments/assets/12c012a6-0146-48fd-ba49-f7d010f79bf0" />
+<img width="1900" height="571" alt="Screenshot 2025-09-18 000611" src="https://github.com/user-attachments/assets/4cae1613-129c-41e6-9817-1e4acefc05fb" />
+<img width="1900" height="666" alt="Screenshot 2025-09-18 000624" src="https://github.com/user-attachments/assets/4056b908-57de-462b-8429-a9d4a33a46a4" />
+
+---
+
+## 🧾 License & Contact
+MIT License — feel free to reuse with attribution.  
+Author: Darshan Jain — contact via GitHub profile.
+
+---
