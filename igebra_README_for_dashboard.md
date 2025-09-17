@@ -1,5 +1,8 @@
 # Igebra.ai — Cognitive Skills & Student Performance Dashboard
 
+<img width="1022" height="475" alt="Screenshot 2025-09-17 235125" src="https://github.com/user-attachments/assets/e7d93a36-8c96-4f05-be88-7c7927f9ba8a" />
+
+
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
 
 > **Live demo:** [https://igebra-dashboard-psi.vercel.app/]  
