@@ -58,7 +58,7 @@ Add real-time data pipeline
 
 
 
-![Dashboard Banner](public\Gemini_Generated_Image_poj1cjpoj1cjpoj1.png)
+<img width="1024" height="1024" alt="Gemini_Generated_Image_poj1cjpoj1cjpoj1" src="https://github.com/user-attachments/assets/8497b679-cadc-47a9-bcc5-c05b3af642a6" />
 
 
 
