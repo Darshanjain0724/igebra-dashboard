@@ -1,7 +1,7 @@
 Jupyter Notebook – Cognitive Skills & Student Performance
 
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_u56a6ju56a6ju56a" src="https://github.com/user-attachments/assets/3c18516d-2a5c-495b-bc3f-fd4b97e3d027" />
+<img width="1022" height="475" alt="Screenshot 2025-09-17 235125" src="https://github.com/user-attachments/assets/d8bbf1bb-cd28-42b4-8ce8-e127afba7442" />
 
 
 
