@@ -5,6 +5,9 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org) [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com)
 
+![CI](https://github.com/Darshanjain0724/igebra-dashboard/actions/workflows/ci.yml/badge.svg)
+
+
 > **Live demo:** [https://igebra-dashboard-psi.vercel.app/]  
 > **Repository:** [https://github.com/Darshanjain0724/igebra-dashboard]
 
