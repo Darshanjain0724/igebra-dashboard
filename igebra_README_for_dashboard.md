@@ -91,7 +91,12 @@ Open http://localhost:3000
 ## 📸 Screenshots / GIFs
 ```md
 
+
 ```
+<img width="1903" height="646" alt="Screenshot 2025-09-18 000541" src="https://github.com/user-attachments/assets/12c012a6-0146-48fd-ba49-f7d010f79bf0" />
+<img width="1900" height="571" alt="Screenshot 2025-09-18 000611" src="https://github.com/user-attachments/assets/4cae1613-129c-41e6-9817-1e4acefc05fb" />
+<img width="1900" height="666" alt="Screenshot 2025-09-18 000624" src="https://github.com/user-attachments/assets/4056b908-57de-462b-8429-a9d4a33a46a4" />
+
 
 ---
 
